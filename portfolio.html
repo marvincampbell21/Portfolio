@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Marvin Campbell Full Stack Developer Portfolio</title>
+    <h1>Marvin Campbell</h1>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#About Me">About Me</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h1>Mantra</h1>
+        <p>The intersection of where civil engineering, software developent, and true creativity meets</p>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Civil Engineer turn Web Developer looking to use my engineering background and builders
+            mentailty to great new innovative applications and websites. I have a unqiue deisgn eye and would 
+            love to be apart of desiging apps and websites, not only athestics but for the functionality of it.
+        </p>
+
+        <section class="skills" id="skills">
+            <h2 class="skill-header">My Top Skills</h2>
+      
+            <div class="skills-wrapper">
+              <div class="first-set animate__animated animate__pulse">
+                <img
+                  src="portfolio pics/icons8-html-5.svg"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+            
+                <img
+                  src="portfolio pics/icons8-javascript.svg"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+              </div>
+      
+              <div class="second-set animate__animated animate__pulse">
+                <img
+                  src="portfolio pics/icons8-bootstrap.svg"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="portfolio pics/icons8-react-native.svg"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+        
+              </div>
+            </div>
+          </section>
+      </section>
+
+
+
+
+      <section class="projects" id="projects">
+        <h2 class="projects-title">Recent Projects</h2>
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <img
+              src="portfolio pics\2.jpg"
+              alt="Fun Facts About States"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Fun Facts About States</h3>
+            <p class="project-details">
+              This project shows Fun Facts about places across the globe. Just type in a Longitude
+              and latitude and see. This was a group project. I helped with styling and helping with using 
+              the api.
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div>
+
+
+          <div class="project-container project-card">
+            <img
+              src="portfolio pics\1.jpg"
+              alt="Github-Full Stack"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Github Full Stack</h3>
+            <p class="project-details">
+              This is a project that allows the user to search anyones username and get their repostory.
+              This was project with only one other partner. I helped creat the navigation and several components 
+              for the app.
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div>
+
+
+
+          <div class="project-container project-card">
+            <img
+              src="portfolio pics\3.jpg"
+              alt="chat-box"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Chat Box</h3>
+            <p class="project-details">
+              This was our attempt at making a chat box. It allowed us to use our developer toolset to try to 
+              build an application. This was a group porject. I helped with styling and navigation of this 
+              application. it was great
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div>
+        </div>
+      </section>
+
+      
+      </section>
+
+      <section id="contact">
+       
+        <h2>Contact Me</h2>       
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Full Stack Developer Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
